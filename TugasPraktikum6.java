@@ -6,16 +6,12 @@ class LatihanPraktikum3 {
 
         Scanner in = new Scanner(System.in);
 
-        int a, b;
-        boolean kebenaran;
-
         System.out.print("Masukkan nilai a : ");
-        a = in.nextInt();
+        int a = in.nextInt();
         System.out.print("Masukkan nilai b : ");
-        b = in.nextInt();
-        System.out.print("Apakah a kelipatan b? ");
-        kebenaran = in.nextBoolean();
-
+        int b = in.nextInt();
+        
+        boolean kebenaran = a % b;
         System.out.print("Apakah " + a + " kelipatan dari " + b +" ? " + kebenaran);
     }
 }
