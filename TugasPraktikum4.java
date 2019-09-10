@@ -12,20 +12,19 @@ class TugasPraktikum4 {
         uang = in.nextInt();
 
         //berapa lembar uang Rp 100.000
-        seratus = uang/100000; uang = uang - (100000*seratus);
+        seratus = uang/100000; uang = uang % 100000;
         //berapa lembar uang Rp 50.000
-        lima = uang/50000; uang = uang - (50000*lima);
+        lima = uang/50000; uang = uang % 50000;
         //berapa lembar uang Rp 20.000
-        dua = uang/20000; uang = uang - (20000*dua);
+        dua = uang/20000; uang = uang % 20000;
         //berapa lembar uang Rp 10.000
-        sepuluh = uang/10000; uang = uang - (10000*sepuluh);
+        sepuluh = uang/10000; uang = uang % 10000;
         //berapa lembar uang Rp 5.000
-        limarb = uang/5000; uang = uang - (5000*limarb);
+        limarb = uang/5000; uang = uang % 5000;
         //berapa lembar uang Rp 2.000
-        duarb = uang/2000; uang = uang - (2000*duarb);
+        duarb = uang/2000; uang = uang % 2000;
         //berapa lembar uang Rp 1.000
         seribu = uang/1000;
-
 
         System.out.println("Jumlah uang Rp 100.000 : " + seratus);
         System.out.println("Jumlah uang Rp 50.000 : " + lima);
@@ -35,5 +34,4 @@ class TugasPraktikum4 {
         System.out.println("Jumlah uang Rp 2.000 : " + duarb);
         System.out.println("Jumlah uang Rp 1.000 : " + seribu);
     }
-
 }
