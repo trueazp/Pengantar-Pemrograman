@@ -11,8 +11,8 @@ class TugasPraktikum2 {
         System.out.print("Masukkan detik : ");
         detik = in.nextInt();
 
-        jam = detik/3600; detik = detik - (3600*jam);
-        menit = detik/60; detik = detik - (60*menit);
+        jam = detik/3600; detik = detik % 3600;
+        menit = detik/60; detik = detik % 60;
 
         System.out.print("Hasil konversi : " + jam + " : " + menit + " : " + detik);
     }
