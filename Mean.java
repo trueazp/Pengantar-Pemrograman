@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Mean {
-
+    
     public static void main(String[] args) {  
 
         Scanner delta = new Scanner(System.in);
@@ -22,15 +22,12 @@ class Mean {
          * atau panjang array-nya
          */
         delta.close();
-        /* Menutup scanner
-         * delta
-         */
+        // Menutup scanner
         double total = 0;
         for (int i=0; i<alpha.length; i++) {
             total = total + alpha[i];
         }
-        /* Menghitung berapa total angka yang dimasukkan user
-         */
+        // Menghitung berapa total angka yang dimasukkan user
         double average = total/alpha.length;
         System.out.printf("~~~~~~~~~~~~~\nRata ratanya : %.2f ", average);
     }
