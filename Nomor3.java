@@ -1,36 +1,16 @@
 import java.util.Scanner;
 
 class Nomor3 {
-
     public static void main(String[] args) {
-
-        Scanner obj = new Scanner(System.in);
-
-        int ganjil = 0, genap = 0, positif = 0, negatif = 0;
-        System.out.println("Input number : ");
-
-        for (int i = 0; i < 5; i++) {
-            double n = obj.nextDouble();
-            if (n % 2 == 0 && n > 0) {
-                genap++;
-                positif++;
-            } else if (n % 2 == 0 && n < 0) {
-                genap++;
-                negatif++;
-            } else if (n % 2 != 0 && n > 0) {
-                ganjil++;
-                positif++;
-            } else if (n % 2 != 0 && n < 0) {
-                ganjil++;
-                negatif++;
-            } else {
-                System.out.println("Inputan tidak valid..");
-            }
+        Scanner in = new Scanner(System.in);
+        System.out.print("Berapa deret bilangan yang ingin dicetak ? ");
+        long n = in.nextLong();
+        long fibo1 = 1, fibo2 = 0, fn = 1;
+        for (int i = 0; i < n; i++) {
+            System.out.print(fn + " ");
+            fn = fibo1 + fibo2;
+            fibo2 = fibo1;
+            fibo1 = fn;
         }
-        System.out.println("~~~~~~~~~~~~~~~~");
-        System.out.printf("%d bilangan genap%n", genap);
-        System.out.printf("%d bilangan ganjil%n", ganjil);
-        System.out.printf("%d bilangan positif%n", positif);
-        System.out.printf("%d bilangan negatif%n", negatif);
     }
 }
