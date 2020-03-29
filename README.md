@@ -4,10 +4,12 @@
 1. Login
 2. Exit
 Masukkan pilihan => 1
+
 --MENU--
 1. Login Mahasiswa
 2. Login Dosen
 Masukkan pilihan => 1
+
 --Input your username & password below--
 Username => akmal
 Password => meoww
@@ -18,6 +20,7 @@ Password => meoww
 4. Informasi IPS
 5. Logout
 Masukkan pilihan => 2
+
 --DAFTAR MATA KULIAH--
 1. Matematika Dasar
 2. Bahasa Indonesia
@@ -26,6 +29,7 @@ Masukkan pilihan => 2
 5. Wawasan IPTEKS
 6. Kewarganegaraan
 Masukkan pilihan  => 4
+
 Mata kuliah Pendidikan Agama berhasil ditambahkan
 Kuota tersisa untuk mata kuliah Pendidikan Agama sebanyak 0
 -------------------------
@@ -36,6 +40,7 @@ Kuota tersisa untuk mata kuliah Pendidikan Agama sebanyak 0
 4. Informasi IPS
 5. Logout
 Masukkan pilihan => 1
+
 -------------------------
 Berikut adalah profil dari akmal
 Nama            : Akmal Zuhdy Prasetya
