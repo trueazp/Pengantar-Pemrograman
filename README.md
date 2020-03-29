@@ -1,9 +1,9 @@
 # TESTING
 
-`--MENU--`
-`1. Login`
-`2. Exit`
-`Masukkan pilihan => 1`
+`--MENU--`(space)
+`1. Login`(space)
+`2. Exit`(space)
+`Masukkan pilihan => 1`(space, space)
 `--MENU--`
 `1. Login Mahasiswa`
 `2. Login Dosen`
